@@ -463,7 +463,7 @@ export default function App() {
           {/* Background image */}
           <div className="absolute inset-0">
             <img
-              src="/images/hero-flowers.jpg"
+              src="/images/hero-flowers.jpeg"
               alt=""
               className="w-full h-full object-cover opacity-40"
             />
@@ -507,7 +507,7 @@ export default function App() {
         <section ref={section1Ref} className="relative" style={{ height: '400vh' }}>
           <div className="sticky top-0 h-screen w-full overflow-hidden">
             <FramePlayer
-              folderPath="./video_frame_her"
+              folderPath="/video_frame_her"
               frameCount={299}
               sectionRef={section1Ref}
               onImageLoaded={handleImageLoaded}
@@ -697,7 +697,7 @@ export default function App() {
       <section ref={section2Ref} className="relative" style={{ height: '350vh' }}>
         <div className="sticky top-0 h-screen w-full overflow-hidden">
           <FramePlayer
-            folderPath="./flower_frames"
+            folderPath="/flower_frames"
             frameCount={240}
             sectionRef={section2Ref}
             onImageLoaded={handleImageLoaded}
