@@ -521,7 +521,13 @@ export default function App() {
           <div className="absolute top-6 left-6 text-3xl opacity-30">🌸</div>
           <div className="absolute top-6 right-6 text-3xl opacity-30">🌸</div>
           <div className="absolute bottom-6 left-6 text-3xl opacity-30">✿</div>
-          <div className="absolute bottom-6 right-6 text-3xl opacity-30">✿</div>
+          
+          {/* Watermark Cover Badge for Ritika Jii */}
+          <div className="absolute bottom-6 right-6 z-20 bg-black/80 backdrop-blur-md border border-pink-500/20 rounded-full px-5 py-2 shadow-lg select-none">
+            <span className="text-pink-200 text-xs tracking-widest font-light uppercase select-none" style={{ fontFamily: "'Poppins', sans-serif" }}>
+              Celebrating Ritika Jii 🌸
+            </span>
+          </div>
         </div>
       </section>
 
